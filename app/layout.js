@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import { Manrope, JetBrains_Mono, Share_Tech_Mono } from 'next/font/google';
 import { BBH_Bartle } from 'next/font/google'
 import Navbar_mobile from "./components/Navbar-mobile";
+import Footer from "./components/Footer";
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -49,7 +50,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Navbar_mobile />
         {children}
-
+        <Footer />
 
         <script src="https://cdn.lordicon.com/lordicon.js"></script>
       </body>
