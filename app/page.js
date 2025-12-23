@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <div className="flex flex-col xl:flex-row items-center justify-around md:h-[calc(100%-80px-100px)] gap-7 p-3 md:w-[80%] m-auto">
+    <div className="md:h-[calc(100%-80px-100px)] flex items-center md:w-[80%] m-auto overflow-auto">
+      <div className="flex flex-col xl:flex-row items-center justify-around gap-7 p-3">
     <div className="profilepic">
       <img className="h-[45vh] md:h-[50vh]" src="/profilepic.png" alt="profilepic" />
     </div>
@@ -21,5 +22,6 @@ export default function Home() {
 
     </div>
    </div>
+    </div>
   );
 }
