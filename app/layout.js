@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Manrope, JetBrains_Mono, Share_Tech_Mono } from 'next/font/google';
 import { BBH_Bartle } from 'next/font/google'
+import Navbar_mobile from "./components/Navbar-mobile";
 
 const manrope = Manrope({
   subsets: ['latin'],
@@ -44,8 +45,12 @@ export default function RootLayout({ children }) {
         <div className="bg-black opacity-50 -z-10 fixed">
           <video src="bg.mp4" autoPlay loop muted className="h-screen w-screen object-cover"></video>
         </div>
+
         <Navbar />
+        <Navbar_mobile />
         {children}
+
+
         <script src="https://cdn.lordicon.com/lordicon.js"></script>
       </body>
     </html>
