@@ -17,7 +17,7 @@ const Navbar_mobile = () => {
     }
 
   return (
-    <div className='fixed flex md:hidden'>
+    <div className='relative flex md:hidden'>
 
         <button onClick={()=>{openPanel()}} className='ml-4 mt-4'>
             <img className='invert w-10' src="/menu.svg" alt="menu" />
