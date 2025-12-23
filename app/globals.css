@@ -14,6 +14,7 @@
   --font-jetbrains: var(--font-jetbrains);
   --font-tech: var(--font-share-tech);
   --font-manrope: var(--font-manrope);
+  --font-bartle: var(--font-bartle);
 }
 
 @media (prefers-color-scheme: dark) {
