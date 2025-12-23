@@ -30,8 +30,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body
-        className={`${manrope.variable} ${shareTech.variable} ${jetbrains.variable} antialiased`}
+        className={`${manrope.variable} ${shareTech.variable} ${jetbrains.variable} antialiased h-screen w-screen`}
       >
         <div className="bg-black opacity-55 -z-10 fixed">
           <video src="bg.mp4" autoPlay loop muted className="h-screen w-screen object-cover"></video>
