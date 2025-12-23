@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="relative w-full">
       
-      <div className="absolute inset-0 w-full h-25 backdrop-blur-2xl [mask-image:linear-gradient(to_top,black_50%,transparent)]"></div>
+      <div className="absolute inset-0 w-full h-25 hidden md:block backdrop-blur-2xl [mask-image:linear-gradient(to_top,black_50%,transparent)]"></div>
       <div className="relative z-10 flex gap-2 font-jetbrains h-25 items-center justify-center text-sm md:text-base">
         Copyright &copy; 2025 -
         Made with
