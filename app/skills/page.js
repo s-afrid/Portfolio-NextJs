@@ -24,8 +24,18 @@ const [database, setdatabase] = useState([
     { name: "SQLite", path: "/skills/sqlite.svg"},
 ])
 
+const [tools, settools] = useState([
+  { name: "Linux", path: "/skills/linux.svg"},
+  { name: "Git", path: "/skills/git.svg"},
+  { name: "GitHub", path: "/skills/github.svg"},
+  { name: "Figma", path: '/skills/figma.svg'},
+  { name: "VSCode", path: '/skills/vscode.svg'},
+  { name: "Redux", path: '/skills/redux.svg'},
+])
+
+
   return (
-    <div className="h-[100vh] md:h-[calc(100vh-80px-100px)] flex flex-col items-center justify-center md:w-[80%] m-auto overflow-y-auto no-scrollbar gap-20 p-3">
+    <div className="h-[100vh]  lg:h-[calc(100vh-80px-100px)] flex flex-col items-center justify-center md:w-[80%] m-auto md:overflow-y-auto no-scrollbar gap-10 md:gap-20 p-3">
         
       <h1 className="name font-bartle text-3xl md:text-5xl tracking-wider self-center md:self-start mx-2 [text-shadow:6px_8px_0px_#000000]">
         Skills
@@ -59,6 +69,17 @@ const [database, setdatabase] = useState([
         </h2>
         <div className="flex flex-wrap gap-4 w-[90vw] md:w-full items-center justify-center">
           {database.map((item) => {
+            return <Skill key={item.name} name={item.name} path={item.path} />;
+          })}
+        </div>
+      </div>
+
+      <div className="tools flex flex-col gap-4">
+        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2">
+                 Tools / Platforms
+        </h2>
+        <div className="flex flex-wrap gap-4 w-[90vw] md:w-full items-center justify-center">
+          {tools.map((item) => {
             return <Skill key={item.name} name={item.name} path={item.path} />;
           })}
         </div>
