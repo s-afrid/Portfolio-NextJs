@@ -1,4 +1,5 @@
 import React from "react";
+import AlternateTimeline from "../components/timelineui";
 const page = () => {
   
 
@@ -9,6 +10,7 @@ const page = () => {
         Timeline
       </h1>
 
+    <AlternateTimeline />
      
     </div>
   );
