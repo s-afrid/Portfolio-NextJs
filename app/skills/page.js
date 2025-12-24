@@ -1,57 +1,23 @@
-"use client";
 import React from "react";
-import { useState } from "react";
 import Skill from "../components/skill";
-
+import skillData from '../json/skills.json'
 const page = () => {
 
-  const [programming, setprogramming] = useState([
-    { name: "Python", path: "/skills/python.svg" },
-    { name: "JavaScript", path: "/skills/javascript.svg" },
-    { name: "C", path: "/skills/c.svg" },
-    { name: "C++", path: "/skills/cpp.svg" },
-  ])
-
-  const [frontend, setfrontend] = useState([
-    { name: "HTML", path: "/skills/html.svg" },
-    { name: "CSS", path: "/skills/css.svg" },
-    { name: "React", path: "/skills/react.svg" },
-    { name: "NextJS", path: "/skills/next.svg" },
-    { name: "Tailwind CSS", path: "/skills/tailwindcss.svg" },
-    { name: "EJS", path: '/skills/ejs.svg'}
-  ]);
-
-const [backend, setbackend] = useState([
-    { name: "NodeJS", path: "/skills/nodejs.svg" },
-    { name: "Express", path: "/skills/expressjs.svg" },
-    { name: "Postman", path: "/skills/postman.svg"}
-  ]);
-
-const [database, setdatabase] = useState([
-    { name: "MongoDB", path: "/skills/mongodb.svg"},
-    { name: "MySQL", path: "/skills/mysql.svg"},
-    { name: "SQLite", path: "/skills/sqlite.svg"},
-])
-
-const [tools, settools] = useState([
-  { name: "Linux", path: "/skills/linux.svg"},
-  { name: "Git", path: "/skills/git.svg"},
-  { name: "GitHub", path: "/skills/github.svg"},
-  { name: "Figma", path: '/skills/figma.svg'},
-  { name: "VSCode", path: '/skills/vscode.svg'},
-  { name: "Redux", path: '/skills/redux.svg'},
-])
-
+const programming = skillData.programming;
+const frontend = skillData.frontend;
+const backend = skillData.backend;
+const database = skillData.database;
+const tools = skillData.tools;
 
   return (
-    <div className="h-[calc(100vh-80px-90px)] xl:h-[calc(100vh-80px-70px)] md:h-[calc(100vh-80px-100px)] 2xl:h-[calc(100vh-80px-100px)] pt-12 2xl:pt-8 pb-15 2xl:pb-2 flex flex-col items-center justify-start md:w-[80%] m-auto overflow-y-auto no-scrollbar gap-10 md:gap-20 p-3">
+   <div className="h-[calc(100vh-80px-20px)] xl:h-[calc(100vh-80px-20px)] md:h-[calc(100vh-80px-20px)] 2xl:h-[calc(100vh-80px-30px)] pt-15 2xl:pt-8 pb-17 2xl:pb-6 flex flex-col items-center justify-start md:w-[80%] m-auto overflow-y-auto no-scrollbar gap-10 md:gap-20 p-3">
         
-      <h1 className="name font-bartle text-3xl md:text-5xl tracking-wider self-center md:self-start mx-2 [text-shadow:6px_8px_0px_#000000]">
+      <h1 className="name font-bartle text-3xl md:text-4xl 2xl:text-5xl tracking-wider self-center md:self-start mx-2 [text-shadow:6px_8px_0px_#000000]">
         Skills
       </h1>
 
       <div className="frontend flex flex-col gap-4">
-        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2">
+        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2 [text-shadow:4px_4px_0px_#000000]">
           Programming
         </h2>
         <div className="flex flex-wrap gap-4 w-[90vw] md:w-full items-center justify-center">
@@ -62,7 +28,7 @@ const [tools, settools] = useState([
       </div>
 
       <div className="frontend flex flex-col gap-4">
-        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2">
+        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2 [text-shadow:4px_4px_0px_#000000]">
           FrontEnd
         </h2>
         <div className="flex flex-wrap gap-4 w-[90vw] md:w-full items-center justify-center">
@@ -73,7 +39,7 @@ const [tools, settools] = useState([
       </div>
 
 <div className="backend flex flex-col gap-4">
-        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2">
+        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2 [text-shadow:4px_4px_0px_#000000]">
                  BackEnd
         </h2>
         <div className="flex flex-wrap gap-4 w-[90vw] md:w-full items-center justify-center">
@@ -84,7 +50,7 @@ const [tools, settools] = useState([
       </div>
 
       <div className="backend flex flex-col gap-4">
-        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2">
+        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2 [text-shadow:4px_4px_0px_#000000]">
                  Database
         </h2>
         <div className="flex flex-wrap gap-4 w-[90vw] md:w-full items-center justify-center">
@@ -95,7 +61,7 @@ const [tools, settools] = useState([
       </div>
 
       <div className="tools flex flex-col gap-4">
-        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2">
+        <h2 className="name font-bartle text-md md:text-3xl tracking-wider self-center mx-2 [text-shadow:4px_4px_0px_#000000]">
                  Tools / Platforms
         </h2>
         <div className="flex flex-wrap gap-4 w-[90vw] md:w-full items-center justify-center">

@@ -1,0 +1,5 @@
+[
+    {"name":"SaaS Examples","desc":"A modern, fast, and responsive directory website.","thumb":"/projects/saas_examples.png","src":"https://github.com/s-afrid/Website-Directory","live":"https://website-directory.onrender.com/","stack":["/skills/react.svg","/skills/expressjs.svg","/skills/mongodb.svg","/skills/tailwindcss.svg"]},
+
+    {"name":"Cine-Friend","desc":"Cine-Friend is a movie info web app built. The app now includes AI-powered movie analysis, providing smart insights, narrative breakdowns, and meta-references for any film.","thumb":"/projects/cine_friend.png","src":"https://github.com/s-afrid/Cine-Friend","live":"https://cine-friend.onrender.com/","stack":["/skills/ejs.svg","/skills/expressjs.svg","/skills/tailwindcss.svg"]}
+]

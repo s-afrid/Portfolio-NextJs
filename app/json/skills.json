@@ -1,0 +1,39 @@
+  {
+    "programming": [
+    { "name": "Python", "path": "/skills/python.svg" },
+    { "name": "JavaScript", "path": "/skills/javascript.svg" },
+    { "name": "C", "path": "/skills/c.svg" },
+    { "name": "C++", "path": "/skills/cpp.svg" }
+  ],
+
+
+  "frontend":[
+    { "name": "HTML", "path": "/skills/html.svg" },
+    { "name": "CSS", "path": "/skills/css.svg" },
+    { "name": "React", "path": "/skills/react.svg" },
+    { "name": "NextJS", "path": "/skills/next.svg" },
+    { "name": "Tailwind CSS", "path": "/skills/tailwindcss.svg" },
+    { "name": "EJS", "path": "/skills/ejs.svg"}
+  ],
+
+"backend":[
+    { "name": "NodeJS", "path": "/skills/nodejs.svg" },
+    { "name": "Express", "path": "/skills/expressjs.svg" },
+    { "name": "Postman", "path": "/skills/postman.svg"}
+  ],
+
+"database":[
+    { "name": "MongoDB", "path": "/skills/mongodb.svg"},
+    { "name": "MySQL", "path": "/skills/mysql.svg"},
+    { "name": "SQLite", "path": "/skills/sqlite.svg"}
+],
+
+"tools": [
+  { "name": "Linux", "path": "/skills/linux.svg"},
+  { "name": "Git", "path": "/skills/git.svg"},
+  { "name": "GitHub", "path": "/skills/github.svg"},
+  { "name": "Figma", "path": "/skills/figma.svg"},
+  { "name": "VSCode", "path": "/skills/vscode.svg"},
+  { "name": "Redux", "path": "/skills/redux.svg"}
+]
+  }
