@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="h-[90vh] md:h-[calc(100vh-80px-100px)] flex items-center justify-start xl:justify-center md:w-[80%] m-auto md:overflow-auto">
-      <div className="flex flex-col xl:flex-row items-center justify-around gap-7 p-3">
+    <div className="md:h-[calc(100vh-80px-160px)] xl:h-[calc(100vh-80px-100px)] flex items-center justify-start xl:justify-center md:w-[80%] m-auto">
+      <div className="flex flex-col xl:flex-row items-center justify-around gap-7 p-3 h-full pb-30 2xl:pb-2 overflow-y-auto no-scrollbar">
     <div className="profilepic">
-      <img className="h-[45vh] md:h-[50vh]" src="/profilepic.png" alt="profilepic" />
+      <img className="h-[40vh] md:h-[50vh]" src="/profilepic.png" alt="profilepic" />
     </div>
     <div className="about flex flex-col lg:w-[80%] gap-10">
       <h1 className="name font-bartle text-2xl md:text-5xl tracking-wider self-center md:self-start mx-2 [text-shadow:6px_8px_0px_#000000]">Syed Afrid</h1>
       <p className="summary font-tech text-center md:text-left self-center md:self-start text-lg lg:text-xl">MERN Stack & Next.js developer crafting scalable web apps with React, Node.js, and Python. Passionate about building clean UIs and high-performance digital solutions.</p>
 
-      <a className="resume flex items-center justify-center gap-2 px-3 py-1 rounded-2xl [box-shadow:5px_5px_#0c0c0c] font-tech text-center md:text-left self-center md:self-start text-lg lg:text-md bg-white text-black hover:invert [transition:all_0.8s_ease] hover:scale-105" href="https://afrid0052.hackerresume.io/a19b6aad-77f4-4d6b-a5b1-25f1060b7645" target="_blank" rel="noopener noreferrer">Resume 
+      <a className="resume flex items-center justify-center gap-2 px-3 py-1 rounded-2xl [box-shadow:5px_5px_#0c0c0c] font-tech text-center md:text-left self-center md:self-start text-lg lg:text-md bg-white text-black active:invert hover:invert [transition:all_0.8s_ease] hover:scale-105" href="https://afrid0052.hackerresume.io/a19b6aad-77f4-4d6b-a5b1-25f1060b7645" target="_blank" rel="noopener noreferrer">Resume 
       <lord-icon
     src="https://cdn.lordicon.com/gsjfryhc.json"
     trigger="hover"

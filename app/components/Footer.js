@@ -5,7 +5,7 @@ const Footer = () => {
    
     <footer className="fixed bottom-0 w-full z-50">
       
-      <div className="absolute bottom-0 w-full h-35 md:h-44 2xl:h-24 backdrop-blur-2xl [mask-image:linear-gradient(to_top,black_40%,transparent)]"></div>
+      <div className="absolute bottom-0 w-full h-30 md:h-44 2xl:h-24 backdrop-blur-2xl [mask-image:linear-gradient(to_top,black_60%,transparent)]"></div>
 
       <div className="relative z-10 flex gap-2 font-jetbrains h-18 md:h-24 items-center justify-center text-sm md:text-base text-gray-800 dark:text-white">
         Copyright &copy; 2025 -
