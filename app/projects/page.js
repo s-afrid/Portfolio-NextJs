@@ -21,6 +21,7 @@ const page = () => {
             
       </div>
       
+      <a className="text-lg font-tech bg-white text-black py-2 px-3 rounded-2xl [box-shadow:5px_5px_#000000] [transition:all_0.6s_ease] hover:scale-105 hover:invert" href="https://github.com/s-afrid?tab=repositories" target="_blank">Show More</a>
       
     </div>
   );
