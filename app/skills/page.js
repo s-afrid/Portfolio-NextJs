@@ -35,7 +35,7 @@ const [tools, settools] = useState([
 
 
   return (
-    <div className="h-[100vh]  lg:h-[calc(100vh-80px-100px)] flex flex-col items-center justify-center md:w-[80%] m-auto md:overflow-y-auto no-scrollbar gap-10 md:gap-20 p-3">
+    <div className="h-[90vh] xl:h-[calc(100vh-80px-100px)] flex flex-col items-center justify-start 2xl:justify-center md:w-[80%] m-auto lg:overflow-y-auto no-scrollbar gap-10 md:gap-20 p-3">
         
       <h1 className="name font-bartle text-3xl md:text-5xl tracking-wider self-center md:self-start mx-2 [text-shadow:6px_8px_0px_#000000]">
         Skills

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="h-[90vh] md:h-[calc(100vh-80px-100px)] flex items-center md:w-[80%] m-auto md:overflow-auto">
+    <div className="h-[90vh] md:h-[calc(100vh-80px-100px)] flex items-center justify-start xl:justify-center md:w-[80%] m-auto md:overflow-auto">
       <div className="flex flex-col xl:flex-row items-center justify-around gap-7 p-3">
     <div className="profilepic">
       <img className="h-[45vh] md:h-[50vh]" src="/profilepic.png" alt="profilepic" />
