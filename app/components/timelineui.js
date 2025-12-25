@@ -7,21 +7,22 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 export default function AlternateTimeline() {
   return (
-    <Timeline className='text-white' position="alternate">
+    <Timeline position="alternate">
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot />
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent>Exicom Technologies</TimelineContent>
+        <TimelineContent>Eat</TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot />
         </TimelineSeparator>
-        <TimelineContent>U R Rao Satellite Centre, ISRO</TimelineContent>
+        <TimelineContent>Code</TimelineContent>
       </TimelineItem>
       
+    
     </Timeline>
   );
 }

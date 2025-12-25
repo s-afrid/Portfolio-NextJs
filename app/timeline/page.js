@@ -10,7 +10,10 @@ const page = () => {
         Timeline
       </h1>
 
+
+<div className="text-3xl font-bold"> 
     <AlternateTimeline />
+  </div>
      
     </div>
   );
