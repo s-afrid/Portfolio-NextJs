@@ -1,7 +1,9 @@
 import React from "react";
-import AlternateTimeline from "../components/timelineui";
+import Timeline from "../components/timelineui";
+import experienceData from "../json/experience.json"
 const page = () => {
   
+  const experience = experienceData;
 
   return (
      <div className="h-[calc(100vh-80px-70px)] xl:h-[calc(100vh-80px-20px)] md:h-[calc(100vh-80px-20px)] 2xl:h-[calc(100vh-80px-30px)] pt-15 2xl:pt-8 pb-17 2xl:pb-6 flex flex-col items-center justify-start md:w-[80%] m-auto overflow-y-auto no-scrollbar gap-10 md:gap-20 p-3">
@@ -10,10 +12,7 @@ const page = () => {
         Timeline
       </h1>
 
-
-<div className="text-3xl font-bold"> 
-    <AlternateTimeline />
-  </div>
+    <Timeline data={experience} />
      
     </div>
   );
