@@ -11,7 +11,7 @@ const Navbar = () => {
             <li className='bg-black py-1 px-3 rounded-lg hover:invert [transition:all_0.7s_ease] [box-shadow:3px_3px_#ffffff]'><a href="/skills">Skills</a></li>
             <li className='bg-black py-1 px-3 rounded-lg hover:invert [transition:all_0.7s_ease] [box-shadow:3px_3px_#ffffff]'><a href="/projects">Projects</a></li>
             <li className='bg-black py-1 px-3 rounded-lg hover:invert [transition:all_0.7s_ease] [box-shadow:3px_3px_#ffffff]'><a href="/timeline">Timeline</a></li>
-            <li className='bg-black py-1 px-3 rounded-lg hover:invert [transition:all_0.7s_ease] [box-shadow:3px_3px_#ffffff]'><a href="/">Contact</a></li>
+            <li className='bg-black py-1 px-3 rounded-lg hover:invert [transition:all_0.7s_ease] [box-shadow:3px_3px_#ffffff]'><a href="/contact">Contact</a></li>
         </ul>
       </nav>
       

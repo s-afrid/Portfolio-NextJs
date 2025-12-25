@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = ({data}) => {
   return (
-    <div className='w-[95%] md:w-[60%] 2xl:w-[50%] md:h-[60%] flex flex-col items-center justify-center bg-white text-black rounded-2xl border-2 border-black p-2 [box-shadow:5px_5px_#000000]'>
+    <div className='w-[95%] md:w-[60%] 2xl:w-[50%] md:h-[60%] flex flex-col items-center justify-center bg-white text-black rounded-2xl border-2 border-black p-2 [box-shadow:5px_5px_#000000] hover:scale-105 transition-transform duration-300'>
         <h1 className='text-[20px] p-4 font-bartle'>{data.name}</h1>
         <img className='w-[90%] h-full rounded-2xl  border-1 border-black [box-shadow:4px_4px_#b8b6b6]' src={data.thumb} alt="thumb" />
         <p className='font-jetbrains w-[95%] text-center py-4 px-1 text-sm md:text-md font-bold'>{data.desc}</p>

@@ -45,7 +45,7 @@ const Navbar_mobile = () => {
                 Timeline
             </div>
             </a></li>
-            <li className='py-1 px-3 w-full'><a className='w-full active:bg-white active:text-black' href="/">
+            <li className='py-1 px-3 w-full'><a className='w-full active:bg-white active:text-black' href="/contact">
             <div className=''>
                 Contact
             </div>

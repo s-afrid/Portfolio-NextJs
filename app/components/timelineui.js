@@ -19,7 +19,7 @@ const Timeline = ({ data }) => {
             <div className="hidden md:block w-5/12"></div>
 
           
-            <div className="ml-12 md:ml-0 w-full md:w-5/12 p-4 bg-gray-100 dark:bg-gray-900 rounded-lg shadow-md hover:scale-105 transition-transform duration-300 font-jetbrains">
+            <div className="ml-12 md:ml-0 w-full md:w-5/12 p-4 bg-gray-100 dark:bg-gray-900 rounded-lg [box-shadow:3px_3px_#ffffff] hover:scale-105 transition-transform duration-300 font-jetbrains">
               
               
               <h3 className="text-xl font-bold text-gray-800 dark:text-white mt-1">
