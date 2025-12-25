@@ -14,9 +14,8 @@ const Navbar_mobile = () => {
     }
 
   return (
-    <div className='sticky top-0 z-50 flex md:hidden w-full'>
+    <div className='sticky top-0 z-50 flex md:hidden w-full pb-5'>
 
-        <div className="absolute top-0 w-full h-25 backdrop-blur-2xl [mask-image:linear-gradient(to_bottom,black_40%,transparent)]"></div>
 
         <button onClick={()=>{openPanel()}} className='relative z-10 ml-4 mt-4'>
             <img className='invert w-10' src="/menu.svg" alt="menu" />

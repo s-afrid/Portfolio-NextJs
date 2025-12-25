@@ -4,10 +4,8 @@ const Footer = () => {
   return (
    
     <footer className="fixed bottom-0 w-full z-50">
-      
-      <div className="absolute bottom-0 w-full h-20 backdrop-blur-2xl [mask-image:linear-gradient(to_top,black_70%,transparent)]"></div>
 
-      <div className="relative z-10 flex gap-2 font-jetbrains h-10 items-center justify-center text-sm md:text-base text-gray-800 dark:text-white">
+      <div className="relative z-10 flex gap-2 font-jetbrains h-15 bg-black items-center justify-center text-sm md:text-base text-gray-800 dark:text-white">
         Copyright &copy; 2025 -
         Made with
         <img src="/heart.svg" alt="heart" className="w-5 h-5 mb-1" />
