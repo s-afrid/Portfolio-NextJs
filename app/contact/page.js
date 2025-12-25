@@ -17,8 +17,8 @@ const page = () => {
 
       <Message />
 
-      <div className="social flex flex-col gap-5">
-        <h2 className="font-jetbrains text-lg text-black bg-white p-3 rounded-2xl [box-shadow:5px_5px_#000000] border border-black">Contact Me at:</h2>
+      <div className="social flex flex-col gap-5 items-center">
+        <h2 className="font-jetbrains text-lg text-black bg-white p-3 rounded-2xl [box-shadow:5px_5px_#000000] border border-black w-fit">Reach me</h2>
 
         <div className="log flex items-center justify-center gap-7">
           <a href={social[0].site} target="_blank">
