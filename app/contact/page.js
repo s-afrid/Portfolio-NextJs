@@ -5,7 +5,8 @@ const page = () => {
   const social = [
     {logo:"/social/linkedin.svg",site:"https://www.linkedin.com/in/syed-afrid-093877227"},
     {logo:"/social/github.svg",site:"https://github.com/s-afrid"},
-    {logo:"/social/email.svg",site:"afrid0052@gmail.com"}
+    {logo:"/social/email.svg",site:"afrid0052@gmail.com"},
+    {logo: "/social/discord.svg",site:"https://discord.com/users/1210205301744345161"}
   ]
   
   return (
@@ -29,6 +30,9 @@ const page = () => {
           </a>
           <a href={`mailto:${social[2].site}`}>
             <img className="hover:scale-107 transition-transform duration-300" src={social[2].logo} alt="email" />
+          </a>
+          <a href={`${social[3].site}`} target="_blank">
+            <img className="hover:scale-107 transition-transform duration-300" src={social[3].logo} alt="email" />
           </a>
         </div>
       </div>
