@@ -46,6 +46,7 @@ theme: "light",
     <div className="bg-gray-800 p-4 rounded-2xl w-[95%] md:w-[60%] 2xl:w-[50%] border border-white [box-shadow:3px_3px_#ffffff]">
 
         <ToastContainer
+        className="font-jetbrains"
 position="top-right"
 autoClose={5000}
 hideProgressBar={false}

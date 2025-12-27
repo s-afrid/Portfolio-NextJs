@@ -42,3 +42,6 @@ body {
   height: 100vh;
 }
 
+.my_toast_font {
+  font-family: var(--font-jetbrains); 
+}
