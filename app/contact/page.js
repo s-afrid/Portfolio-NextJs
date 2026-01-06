@@ -6,7 +6,8 @@ const page = () => {
     {logo:"/social/linkedin.svg",site:"https://www.linkedin.com/in/syed-afrid-093877227"},
     {logo:"/social/github.svg",site:"https://github.com/s-afrid"},
     {logo:"/social/email.svg",site:"afrid0052@gmail.com"},
-    {logo: "/social/discord.svg",site:"https://discord.com/users/1210205301744345161"}
+    {logo: "/social/discord.svg",site:"https://discord.com/users/1210205301744345161"},
+    {logo: "/social/peerlist.svg",site:"https://peerlist.io/afrid0052"}
   ]
   
   return (
@@ -32,7 +33,10 @@ const page = () => {
             <img className="hover:scale-107 transition-transform duration-300" src={social[2].logo} alt="email" />
           </a>
           <a href={`${social[3].site}`} target="_blank">
-            <img className="hover:scale-107 transition-transform duration-300" src={social[3].logo} alt="email" />
+            <img className="hover:scale-107 transition-transform duration-300" src={social[3].logo} alt="discord" />
+          </a>
+          <a href={`${social[4].site}`} target="_blank">
+            <img className="hover:scale-107 transition-transform duration-300" src={social[4].logo} alt="peerlist" />
           </a>
         </div>
       </div>
