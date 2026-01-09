@@ -1,6 +1,7 @@
 import React from "react";
 import Timeline from "../components/timelineui";
 import experienceData from "../json/experience.json"
+import Githubtree from "../components/Githubtree";
 const page = () => {
   
   const experience = experienceData;
@@ -11,6 +12,10 @@ const page = () => {
       <h1 className="name font-bartle text-3xl md:text-4xl 2xl:text-5xl tracking-wider self-center md:self-start mx-2 [text-shadow:6px_8px_0px_#000000]">
         Timeline
       </h1>
+
+      <h2 className="font-bartle text-sm md:text-md 2xl:text-lg tracking-wider self-center md:self-start mx-2">GitHub Contributions</h2>
+
+    <Githubtree />
 
     <Timeline data={experience} />
      
